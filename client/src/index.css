@@ -1,3 +1,7 @@
 @import "tailwindcss";
 @layer utilities;
 @import "tailwindcss/utilities.css" layer(utilities);
+
+.Toastify__toast-icon {
+  display: none;
+}

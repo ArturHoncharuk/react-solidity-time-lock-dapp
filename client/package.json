@@ -12,10 +12,13 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "ethers": "^6.15.0",
+    "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-toastify": "^11.0.5",
-    "tailwindcss": "^4.1.11"
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.11",
+    "zustand": "^5.0.6"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
