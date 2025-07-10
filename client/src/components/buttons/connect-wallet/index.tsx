@@ -1,9 +1,9 @@
-import { error, logger, sleep } from "@/@utils";
-import { Spinner } from "@/components/spinner";
-import { contractService } from "@/lib/contract-service";
-import { useAccountStore } from "@/store";
 import { useCallback, useState } from "react";
 import { twMerge } from "tailwind-merge";
+import { contractService } from "@/lib/contract-service";
+import { Spinner } from "@/components/spinner";
+import { useAccountStore } from "@/store";
+import { error, logger } from "@/@utils";
 
 interface ConnectWalletButtonProps {
   cn?: string;
